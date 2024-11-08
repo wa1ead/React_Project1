@@ -1,9 +1,7 @@
-import {products} from "../product";
+import { product } from "../product";
 
 function Name() {
-  return products.forEach((product) => {
-    <h2>{product.title}</h2>;
-  });
+  return <h3 className="text-sm text-gray-700">{product.title}</h3>;
 }
 
 export default Name;

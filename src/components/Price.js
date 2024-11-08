@@ -1,9 +1,7 @@
-import {products} from "../product";
+import { product } from "../product";
 
 function Price() {
-  return products.forEach((product) => {
-    <p>`$ {product.price}`</p>;
-  });
+  return <p className="text-sm font-medium text-gray-900">${product.price}</p>;
 }
 
 export default Price;

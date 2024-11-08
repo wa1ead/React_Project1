@@ -1,9 +1,7 @@
-import {products} from "../product";
+import { product } from "../product";
 
 function Description() {
-  return products.forEach((product) => {
-    <p>{product.description}</p>;
-  });
+  return <p className="mt-1 text-sm text-gray-500">{product.description}</p>;
 }
 
 export default Description;
