@@ -1,4 +1,4 @@
-import products from "../../public/product";
+import {products} from "../product";
 
 function Name() {
   return products.forEach((product) => {
