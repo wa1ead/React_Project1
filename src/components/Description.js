@@ -1,9 +1,9 @@
 import products from "../../public/product";
 
-function Price() {
+function Description() {
   return products.forEach((product) => {
-    <p>`$ {product.price}`</p>;
+    <p>{product.description}</p>;
   });
 }
 
-export default Price;
+export default Description;

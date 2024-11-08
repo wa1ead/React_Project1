@@ -2,7 +2,7 @@ import products from "../../public/product";
 
 function Name() {
   return products.forEach((product) => {
-    <p>{product.title}</p>;
+    <h2>{product.title}</h2>;
   });
 }
 
